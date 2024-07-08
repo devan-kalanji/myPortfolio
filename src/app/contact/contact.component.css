@@ -1,0 +1,16 @@
+
+.first {
+    width: 200px;
+    float: left;
+    height: 300px;
+        
+}
+.second {
+    width: 400px;
+    float: left;
+    height: 330px;
+    margin-left: 130px;
+    background-color:pink;
+    text-align: center; 
+    padding-top: 10px; 
+}

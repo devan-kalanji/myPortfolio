@@ -1,0 +1,49 @@
+<div class="container text-center">
+    <button (click)="downloadFile()" class="btn btn-primary mb-5 shadow border">Download Resume</button>
+
+    <div class="pb-2">
+        <accordion [isAnimated]="true" style="width: 800px;" class="shadow">        
+        <accordion-group heading="Skills">
+            <div class="row" style="text-align: left;">
+                <div class="col">
+                    <div>Programming Languages:</div>
+                    <ul>
+                        <li>Python</li>
+                        <li>SQL</li>
+                        <li>OOPS</li>
+                        <li>RDBMS</li>
+                        <li>Basic C#</li>
+                        
+                    </ul>
+                </div>
+                <div class="col">
+                    <div>Styling:</div>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <div>Other Skills:</div>
+                    <ul>
+                        <li>Source Code via Git</li>                        
+                    </ul>
+                </div>
+            </div>
+        </accordion-group>
+        
+        <accordion-group heading="Education">
+            <div style="text-align: center;">
+                <div class="mb-0">Master of Computer Applications</div>
+                <div class="mb-0">Kamaraj University</div>
+            </div>
+        </accordion-group>
+        <accordion-group heading="Certifications">
+            <div style="text-align: center;">
+                <div>Planning to do AWS cloud practitioner</div>
+                
+            </div>
+        </accordion-group>
+    </accordion>
+    </div>
+</div>

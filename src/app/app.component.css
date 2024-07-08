@@ -1,0 +1,7 @@
+header {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 70px;
+    margin-top: 50px;
+}

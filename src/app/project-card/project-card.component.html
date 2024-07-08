@@ -1,0 +1,31 @@
+<div class="test">
+    <div class="container card shadow">
+        <img style="width: 100px; height: 100px; align-items: center;" src="{{project.pictures[0]}}">
+        <h5>{{project.name}}</h5>
+        <div style="padding-top: 5px;padding-bottom: 10px; color: blue;">Tools Used:
+
+            <div *ngFor="let tag of project.tags">
+                <div class="tag me-2 mb-1" [style.background-color]="tag.color">{{tag}}</div>
+                
+            </div>            
+        </div>
+
+        <button class="btn btn-primary" (click)="show = !show">View more</button>
+            <p *ngIf="show">View More section is Under Development</p>
+        
+        
+    </div>
+</div>
+
+<!-- <div class="card shadow text-center" style="max-width: 250px;min-width:250px;">
+    <div class="card-body">
+        <h5 class="card-title">{{project.name}}</h5>
+        <img style="width: 100px; height: 100px; align-items: center;" src="{{project.pictures[0]}}">
+        <button class="btn btn-primary">View more</button>
+    </div>
+    <div class="d-flex flex-wrap justify-content-center">
+        <div *ngFor="let tag of project.tags">
+            <div class="tag me-2 mb-1" [style.background-color]="tag.color">{{tag}}</div>
+        </div>
+    </div>
+</div> -->
